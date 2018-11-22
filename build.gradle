@@ -1,0 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.3.0'
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    minSdkVersion = 21
+    targetSdkVersion = 27
+    compileSdkVersion = 28
+
+    //library
+    supportLibraryVersion = '28.0.0'
+    constraintLayout = '1.1.3'
+    junit = '4.12'
+    testRunner = '1.0.1'
+    espressoCore = '3.0.1'
+    dagger2 = '2.19'
+    retrofit = '2.4.0'
+    rxandroid = '2.0.2'
+    rxandroidAdapter = '1.0.0'
+    loggingInterceptor = '3.4.1'
+    stetho = '1.5.0'
+    glide = '4.7.1'
+    crashLytics = '2.9.2'
+    firebase='11.8.0'
+    singleDateAndTimePicker='2.0.4'
+    findBugs='3.0.1'
+    lifecycleVersion = '1.1.1'
+    uCrop = '2.2.2'
+    photoView='2.1.4'
+}
