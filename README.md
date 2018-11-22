@@ -1,9 +1,11 @@
-Download [apk](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/apk/MarsChallengeBuddhaS-0.1.0.355-20181122-dev-debug.apk)
+Download [apk](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/apk/MarsChallengeBuddhaS-0.1.0.358-20181122-dev-debug.apk)
 ## Screenshots
 
-![](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/screenshots/device-2018-11-16-183633.png?raw=true)
+![](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/screenshots/device-2018-11-22-110052.png?raw=true)
 
-![](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/screenshots/device-2018-11-16-190251.png?raw=true)
+![](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/screenshots/device-2018-11-22-110112.png?raw=true)
+
+![](https://github.com/buddhasaikia/MarsPlayChallenge/blob/master/screenshots/device-2018-11-22-110140.png?raw=true)
 
 ## Details of sample project
 
@@ -34,6 +36,8 @@ Swipe top to bottom to refresh image list.
 Share image url.
 
 Double tap/pinch to zoom in/out image in full screen view.
+
+Resize image in landscape mode.
 
 
 ## Architecture diagram
